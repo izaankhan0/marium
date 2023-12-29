@@ -46,9 +46,10 @@ margin-left: 50px;
     align-items: center;
     height: 90px;
     background-color: #00092c;
-    position: sticky;
-    top: 0.1px;
+    position: fixed;
+    top: 0px;
     z-index: 1000;
+    width: 100%;
 }
 .nav-right > a > img[src="./images/insta-icon.png"]{
     width: 25px;
@@ -107,8 +108,10 @@ transition: 200ms ease;
 .main{
     /* background-color: aqua; */
     display: flex;
+    /* flex-wrap: wrap; */
     height: 100vh;
     justify-content: center;
+    margin-top: 100px;
 }
 .main-items{
     width: 48%;
@@ -117,7 +120,7 @@ transition: 200ms ease;
 }
 img[src="./images/edit-1.png"]{
     width: 100%;
-    transition: 2s ease;
+    transition: 1.5s ease;
     position: relative;
     bottom: 50px;
     background-image: url(./images/bgemp.png);
@@ -134,7 +137,6 @@ img[src="./images/edit-1.png"]:hover{
     color: white;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     /* align-items: center; */
     justify-content: center;
     position: relative;
@@ -159,4 +161,108 @@ h2{
     font-size: 50px;
     color: rgb(222, 29, 29);
     font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+.about{
+    height: 150vh;
+    margin-top: 5px;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    margin-bottom: 110px;
+}
+.parsi{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+img[src="./images/smcs.jpeg"]{
+    height: 350px;
+    /* border: solid 10px white; */
+    box-shadow: 0px 0px 5px 5px #cccccc;
+    /* margin: 0px 50px; */
+    /* position: relative; */
+    /* right: 200px; */
+    margin-right: 60px;
+    transition: 300ms ease;
+}
+h4{
+    font-size: 36px;
+    color: white;
+    position: relative;
+    bottom: 12px;
+    margin-bottom: 15px;
+}
+.about-txt{
+    /* margin: 0px 30px;
+    margin-left: 100px; */
+color: wheat;
+width: 540px;
+/* padding-right: 360px; */
+}
+
+.kgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 35px; */
+}
+img[src="./images/kgs.jpeg"]{
+    height: 350px;
+    /* border: solid 10px white; */
+    box-shadow: 0px 0px 5px 5px #cccccc;
+    /* margin: 0px 50px; */
+    /* position: relative; */
+    /* right: 200px; */
+    margin-left: 60px;
+    transition: 300ms ease;
+}
+.kgs-txt{
+    /* margin: 0px 30px;
+    margin-left: 100px; */
+color: wheat;
+width: 540px;
+/* padding-right: 360px; */
+}
+
+img[src="./images/kgs.jpeg"]:hover,img[src="./images/smcs.jpeg"]:hover{
+    transform: scale(1.05);
+}
+
+.levels{
+    font-size: 40px;
+    color: rgb(222, 29, 29);
+
+}
+
+.grades{
+color: wheat;
+margin: 0px 20px;
+/* padding: 0px 50px; */
+font-size: 25px;
+}
+
+.grades1{
+    position: relative;
+    right: 20px;
+}
+.grades2{
+position: relative;
+left: 20px;
+
 }

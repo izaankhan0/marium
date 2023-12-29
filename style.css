@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.landing-page{
+    /* background-color: yellow; */
+    height: 130vh;
+
+}
+.landing-page > nav > ul{
+    display: flex;
+margin-left: 50px;
+}
+.landing-page > nav > ul > a > li{
+    color: white;
+    list-style: none;
+    font-size: 17px;
+    margin: 0px 12px;
+    letter-spacing: 0.6px;
+    transition:200ms ease;
+}
+.landing-page > nav > a > p{
+    font-size: 27px;
+    font-weight: 600;
+    transition: 100ms ease;
+}
+.landing-page > nav > ul > a, .landing-page > nav > a{
+    color: white;
+
+    text-decoration: none;
+}
+.landing-page > nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    background-color: #00092c;
+    position: sticky;
+    top: 0.1px;
+}
+.nav-right > a > img[src="./images/insta-icon.png"]{
+    width: 25px;
+    margin-right: 20px;
+    /* margin-left: 60px; */
+    position: relative;
+    left: 25px;
+transition: 200ms ease;
+}
+.nav-right{
+    width: 25vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-btn{
+    height: 55px;
+    width: 140px;
+    font-size: 14px;
+    border-radius: 1px;
+    color: rgb(222, 29, 29);
+    background-color: transparent;
+    border: solid 2px rgb(222, 29, 29);
+    position: relative;
+    bottom: 3px;
+    margin-left: 60px;
+    font-weight: 500;
+    padding-right: 7px;
+    cursor: pointer;
+    transition: 200ms ease;
+}
+.nav-btn:hover{
+    color: #00092c;
+    background-color: rgb(222, 29, 29);
+    border: solid 2px rgb(222, 29, 29);
+}
+
+.nav-right > a > img[src="./images/insta-icon.png"]:hover{
+
+    transform: scale(1.2);
+}
+.landing-page > nav > a > p:hover{
+    color: rgb(198, 198, 198);
+}
+ 
+.landing-page > nav > ul > a > li:hover{
+    color: rgb(222, 29, 29);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}

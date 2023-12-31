@@ -8,9 +8,12 @@
 body{
 
     background-color: #00092c;
+    
 }
 .container{
-    margin: 0px 3%;
+    /* margin: 0px 3%; */
+    width: 100%;
+    overflow: hidden;
 }
 
 .landing-page{
@@ -264,5 +267,37 @@ font-size: 25px;
 .grades2{
 position: relative;
 left: 20px;
+}
 
+h5{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: 20px 0px 25px 0px;
+}
+.int_icons > img{
+    height:200px;
+    border-radius: 50%;
+    margin: 0px 60px;
+    /* filter: grayscale(100%); */
+}
+.int_icons{
+    background-color: rgb(31, 3, 3);
+    height: 32vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.intn_list{
+    background-color: rgb(31, 3, 3);
+
+margin: 5% 0px 15% 0px;
+
+height: 400px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 0px 0px 40px 0px;
 }

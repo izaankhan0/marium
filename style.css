@@ -13,7 +13,7 @@ body{
 .container{
     /* margin: 0px 3%; */
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .landing-page{
@@ -249,7 +249,7 @@ img[src="./images/kgs.jpeg"]:hover,img[src="./images/smcs.jpeg"]:hover{
 
 .levels{
     font-size: 40px;
-    color: rgb(222, 29, 29);
+    color: rgb(157, 18, 18);
 
 }
 
@@ -327,4 +327,54 @@ overflow: hidden;
 .intn_list:hover .int_icons{
     animation-play-state: paused;
 
+}
+.scroller{
+    margin: 100px 0px;
+}
+
+
+
+.work{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+height: 80vh;
+margin: 100px 0px;
+}
+
+.workPlaces{
+    height: 230px;
+    width: 400px;
+    margin: 20px ;
+    background-color: rgb(31, 3, 3);
+color: rgb(248, 248, 248);
+    padding-top: 30px;
+}
+.work_examples{
+    display: flex;
+}
+h6{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding-top: 80px;
+}
+.w_group{
+    /* width: 49%; */
+    min-width: 450px;
+}
+h7{
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 20px
+}
+.h_time{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.h_desc{
+    margin: 20px 10px 0px 20px;
 }

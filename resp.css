@@ -1,10 +1,6 @@
 .container{
     overflow: hidden;
 }
-
-
-
-
 @media (max-width:1400px){
     .nav-right{
     margin-right: 20px;
@@ -134,6 +130,35 @@
     .work_piece1{
         left: 20px;
     }
+
+
+
+    nav{
+        visibility: hidden;
+    }
+    .landing-text > p{
+        font-size: 1.5rem;
+        margin: 10px 0px;
+        text-align: center;
+        line-height: 40px;
+    }
+    .menu-icon{
+        visibility: visible;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    .close{
+        color: black;
+        text-align: right;
+        padding: 20px 20px;
+        font-size: 20px;
+    }
+
+
+
+
+
 }
 @media (max-width:800px){
     .about{
@@ -334,6 +359,9 @@ img[src="./images/workpic.png"]{
 }
 h7{
     font-size: 22px;
+}
+.fix-3{
+    display: inline-block;
 }
 
 }

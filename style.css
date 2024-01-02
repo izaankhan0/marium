@@ -255,7 +255,7 @@ img[src="./images/kgs.jpeg"]:hover,img[src="./images/smcs.jpeg"]:hover{
 
 .levels{
     font-size: 40px;
-    color: rgb(157, 18, 18);
+    color: rgb(222, 29, 29);
 
 }
 
@@ -497,3 +497,60 @@ footer > ol > a {
 html{
     scroll-behavior: smooth;
 }
+
+  .menu-line{
+    width:40px;
+    height: 4px;
+    background-color: white;
+    margin: 8px 0px;
+    border-radius: 10px;
+  }
+  
+  
+ .show-menu{
+    visibility: visible !important;
+    position: absolute;
+    left: 0.0001px;
+ }
+ .hidden-menu > ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    bottom: 20px;
+}
+.close{
+    color: white !important;
+    align-self: flex-end;
+    font-size: 50px !important;
+    position: relative;
+    bottom: 10px !important;
+
+}
+.hidden-menu > ul > a >li{
+    text-align: end;
+    margin: 20px 0px 30px 0px !important;
+}
+ .hidden-menu{
+     max-width: 250px !important;
+     background-color: #300000 !important;
+
+    height: 100vh !important;
+    visibility: hidden;
+    margin-right: 100px !important;
+ }
+ .hidden-menu > ul  > a > img{
+    height: 50px;
+    /* margin-right: 40px; */
+    margin-top: 50px;
+ }
+ .hidden-menu > ul > a > button{
+     margin: 0px auto;
+    margin-top: 25px;
+    /* margin-right: 40px; */
+    color: #002bd8;
+    border: solid #002bd8 2px;
+ }

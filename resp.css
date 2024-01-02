@@ -3,12 +3,6 @@
 }
 
 
-#footer{
-    overflow: hidden;
-    visibility: hidden;
-
-}
-
 
 
 @media (max-width:1400px){
@@ -294,8 +288,28 @@
 
 
 }
-
-
+@media (max-width:500px){
+    footer > ol{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    footer > ol > a> li{
+        margin: 12px 0px;
+    }
+    .credits{
+        justify-content: center;
+        align-items: flex-start;
+        text-align: center;
+        position: relative;
+        bottom: 16px;
+    }
+footer{
+    height: 500px;
+}
+}
 
 @media (max-width:430px){
 .work_piece1{

@@ -541,7 +541,17 @@ html{
     height: 100vh !important;
     visibility: hidden;
     margin-right: 100px !important;
+    opacity: 0; /* Initially hidden */
+    visibility: hidden; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out; /* Transition for fade effect */
  }
+
+
+.hidden-menu.show-menu {
+    opacity: 1; /* Display when the show-menu class is added */
+    visibility: visible; /* Display when the show-menu class is added */
+}
+
  .hidden-menu > ul  > a > img{
     height: 50px;
     /* margin-right: 40px; */

@@ -58,7 +58,7 @@ margin-left: 50px;
     z-index: 1000;
     width: 100%;
 }
-.nav-right > a > img[src="./images/insta-icon.png"]{
+.nav-right > a > img[src="./images/redL.png"]{
     width: 25px;
     margin-right: 20px;
     /* margin-left: 60px; */
@@ -96,7 +96,16 @@ transition: 200ms ease;
     border: solid 2px rgb(222, 29, 29);
 }
 
-.nav-right > a > img[src="./images/insta-icon.png"]:hover{
+img[src="./images/blueL.png"]{
+    transition: 200ms ease;
+
+}
+img[src="./images/blueL.png"]:hover{
+    transform: scale(1.2);
+
+}
+
+.nav-right > a > img[src="./images/redL.png"]:hover{
 
     transform: scale(1.2);
 }
@@ -564,3 +573,18 @@ html{
     color: #002bd8;
     border: solid #002bd8 2px;
  }
+ .hidden-menu > ul > a > button:hover{
+   background-color: #002bd8;
+   color: white;
+   border: solid #002bd8 2px;
+}
+
+ .blur {
+    filter: blur(5px);
+}
+
+.fix-5{
+    text-align: center;
+    position: relative;
+    bottom: 8px;
+}

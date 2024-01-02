@@ -352,7 +352,7 @@ overflow: hidden;
 flex-direction: row;
 justify-content: space-between;
 
-height: 80vh;
+    height: auto;
 margin: 100px 0px;
 }
 
@@ -363,9 +363,14 @@ margin: 100px 0px;
     background-color: rgb(31, 3, 3);
 color: rgb(248, 248, 248);
 padding-top: 30px;
+transition: linear 100ms;
+}
+.workPlaces:hover{
+    transform: scale(1.03);
 }
 .work_examples{
     display: flex;
+
 }
 h6{
     font-size: 50px;

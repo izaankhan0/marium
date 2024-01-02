@@ -23,7 +23,7 @@ nav{
 .landing-page{
     /* background-color: yellow; */
     height: auto;
-    margin: 100px;
+    /* margin: 100px; */
 
 }
 .landing-page > nav > ul{
@@ -181,7 +181,7 @@ h2{
 
 .about{
     height: 150vh;
-    margin-top: 5px;
+    margin-top: 100px;
 }
 
 h3{

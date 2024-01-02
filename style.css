@@ -200,7 +200,8 @@ h3{
 img[src="./images/smcs.jpeg"]{
     height: 350px;
     /* border: solid 10px white; */
-    box-shadow: 0px 0px 5px 5px #cccccc;
+    box-shadow: 0px 0px 5px 5px rgb(0, 15, 77);
+
     /* margin: 0px 50px; */
     /* position: relative; */
     /* right: 200px; */
@@ -232,7 +233,8 @@ width: 540px;
 img[src="./images/kgs.jpeg"]{
     height: 350px;
     /* border: solid 10px white; */
-    box-shadow: 0px 0px 5px 5px #cccccc;
+    box-shadow: 0px 0px 5px 5px rgb(0, 15, 77);
+
     /* margin: 0px 50px; */
     /* position: relative; */
     /* right: 200px; */
